@@ -215,6 +215,7 @@ p {
   .note {
     height: 250px;
     width: 250px;
+  
   }
 
   .note textarea {
@@ -222,7 +223,7 @@ p {
     font-family: inherit;
     font-size: 1.2rem;
     border: none;
-    width: 235px;
+    width: 234px;
     height: 250px;
     padding: 0.5rem;
   }
@@ -237,6 +238,23 @@ p {
   #quote-text {
     transform: translateY(-110px);
   }
+
+  .note {
+    height: 150px;
+    width: 150px;
+    bottom: 80px;
+  }
+
+  .note textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+    border: none;
+    width: 144px;
+    height: 150px;
+    padding: 0.2rem;
+  }
+}
 }
 
 /* LOADER */

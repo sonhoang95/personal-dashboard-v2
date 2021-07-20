@@ -74,7 +74,7 @@ navigator.geolocation.getCurrentPosition(position => {
   const lon = position.coords.longitude
   showLoadingSpinner()
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${weatherAppKey}`
+    `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${weatherAppKey}`
   )
     .then(res => {
       if (!res.ok) {

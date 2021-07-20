@@ -228,6 +228,17 @@ p {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .time {
+    font-size: 4.5rem;
+    transform: translateY(-70px);
+  }
+
+  #quote-text {
+    transform: translateY(-110px);
+  }
+}
+
 /* LOADER */
 .loader {
   position: absolute;
